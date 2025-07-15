@@ -1,0 +1,7 @@
+# 内容：OpenAi Bard anthropic
+# 域名关键字匹配
+# DOMAIN-KEYWORD,pools
+# DOMAIN-KEYWORD,hashvault
+
+# 域名后缀匹配
+DOMAIN-SUFFIX,hashvault.pro
