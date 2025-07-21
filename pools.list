@@ -2,6 +2,14 @@
 # 域名关键字匹配
 # DOMAIN-KEYWORD,hashvault
 
+# —— Pools Group 裸 IP:18189 覆盖 ——  
+# 日志中出现的主要矿池 IP 段  
+IP-CIDR,15.235.0.0/16,Pools  
+IP-CIDR,54.36.0.0/16,Pools  
+IP-CIDR,91.134.0.0/16,Pools  
+IP-CIDR,141.95.0.0/16,Pools  
+IP-CIDR,198.244.0.0/16,Pools  
+
 # 域名后缀匹配
 DOMAIN-SUFFIX,textexplore.tari.com,Pools  
 DOMAIN-SUFFIX,ut.tari.com,Pools  
@@ -29,10 +37,4 @@ DOMAIN-SUFFIX,p2pool.supportxmr.com,Pools
 DOMAIN-SUFFIX,c3pool.com,Pools  
 DOMAIN-SUFFIX,bohemianpool.com,Pools
 
-# —— Pools Group 裸 IP:18189 覆盖 ——  
-# 日志中出现的主要矿池 IP 段  
-IP-CIDR,15.235.0.0/16,Pools  
-IP-CIDR,54.36.0.0/16,Pools  
-IP-CIDR,91.134.0.0/16,Pools  
-IP-CIDR,141.95.0.0/16,Pools  
-IP-CIDR,198.244.0.0/16,Pools  
+
