@@ -3,32 +3,36 @@
 # DOMAIN-KEYWORD,hashvault
 
 # 域名后缀匹配
-DOMAIN-SUFFIX,textexplore.tari.com
-DOMAIN-SUFFIX,ut.tari.com
-DOMAIN-SUFFIX,api.hashvault.pro
-DOMAIN-SUFFIX,donate.ssl.xmrig.com
-DOMAIN-SUFFIX,xmrig.com
-DOMAIN-SUFFIX,tari.com
-DOMAIN-SUFFIX,hashvault.pro
-DOMAIN-SUFFIX,2miners.com
-DOMAIN-SUFFIX,dxpool.com
-DOMAIN-SUFFIX,f2pool.com
-DOMAIN-SUFFIX,luxor.tech
-DOMAIN-SUFFIX,miningpoolhub.com
-DOMAIN-SUFFIX,nanopool.org
-DOMAIN-SUFFIX,nanopool.com
-DOMAIN-SUFFIX,prohashing.com
-DOMAIN-SUFFIX,zergpool.com
-DOMAIN-SUFFIX,fastpool.xyz
-DOMAIN-SUFFIX,minexmr.com
-DOMAIN-SUFFIX,supportxmr.com
-DOMAIN-SUFFIX,moneroocean.stream
-DOMAIN-SUFFIX,unmineable.com
-DOMAIN-SUFFIX,herominers.com
-DOMAIN-SUFFIX,xmrpool.eu
-DOMAIN-SUFFIX,xmrzone.net
-DOMAIN-SUFFIX,p2pool.supportxmr.com
-DOMAIN-SUFFIX,c3pool.com
-DOMAIN-SUFFIX,bohemianpool.com
-DOMAIN-SUFFIX,solo.ckpool.org
-DOMAIN-SUFFIX,hashcows.com
+DOMAIN-SUFFIX,textexplore.tari.com,Pools  
+DOMAIN-SUFFIX,ut.tari.com,Pools  
+DOMAIN-SUFFIX,api.hashvault.pro,Pools  
+DOMAIN-SUFFIX,donate.ssl.xmrig.com,Pools  
+DOMAIN-SUFFIX,tari.com,Pools  
+DOMAIN-SUFFIX,hashvault.pro,Pools  
+DOMAIN-SUFFIX,2miners.com,Pools  
+DOMAIN-SUFFIX,dxpool.com,Pools  
+DOMAIN-SUFFIX,f2pool.com,Pools  
+DOMAIN-SUFFIX,luxor.tech,Pools  
+DOMAIN-SUFFIX,miningpoolhub.com,Pools  
+DOMAIN-SUFFIX,nanopool.org,Pools  
+DOMAIN-SUFFIX,prohashing.com,Pools  
+DOMAIN-SUFFIX,zergpool.com,Pools  
+DOMAIN-SUFFIX,fastpool.xyz,Pools  
+DOMAIN-SUFFIX,minexmr.com,Pools  
+DOMAIN-SUFFIX,supportxmr.com,Pools  
+DOMAIN-SUFFIX,moneroocean.stream,Pools  
+DOMAIN-SUFFIX,unmineable.com,Pools  
+DOMAIN-SUFFIX,herominers.com,Pools  
+DOMAIN-SUFFIX,xmrpool.eu,Pools  
+DOMAIN-SUFFIX,xmrzone.net,Pools  
+DOMAIN-SUFFIX,p2pool.supportxmr.com,Pools  
+DOMAIN-SUFFIX,c3pool.com,Pools  
+DOMAIN-SUFFIX,bohemianpool.com,Pools
+
+# —— Pools Group 裸 IP:18189 覆盖 ——  
+# 日志中出现的主要矿池 IP 段  
+IP-CIDR,15.235.0.0/16,Pools  
+IP-CIDR,54.36.0.0/16,Pools  
+IP-CIDR,91.134.0.0/16,Pools  
+IP-CIDR,141.95.0.0/16,Pools  
+IP-CIDR,198.244.0.0/16,Pools  
