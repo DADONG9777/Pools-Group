@@ -1,7 +1,7 @@
-# ChinaCommon.list
+# ChinaCommin.list
 # 国内常用网站、应用与平台专属网段（Clash / Mihomo classical rule-provider）
-# 更新时间：2026-08-25
-# 共 1051 条 DOMAIN-SUFFIX、30 条 IP-CIDR、4 条 IP-CIDR6、1 条 IP-ASN 规则。
+# 更新时间：2026-08-26
+# 共 1254 条 DOMAIN-SUFFIX、30 条 IP-CIDR、4 条 IP-CIDR6、1 条 IP-ASN 规则。
 # 不含广告跟踪、共享云/公共 CDN 网段和明确的国际版服务。
 # 参考：V2Fly domain-list-community、Blackmatrix7 ios_rule_script、APNIC RDAP、RIPEstat 及各服务官方网站。
 
@@ -830,6 +830,113 @@ DOMAIN-SUFFIX,thundercdn.com
 DOMAIN-SUFFIX,sandai.net
 DOMAIN-SUFFIX,p2cdn.com
 
+# 网盘、下载工具与文件传输补充
+# 百度网盘
+DOMAIN-SUFFIX,baidu-cdn.cn
+DOMAIN-SUFFIX,baidu-cdn.com
+DOMAIN-SUFFIX,baidu-cdn.net
+DOMAIN-SUFFIX,baiduyuncdn.net
+DOMAIN-SUFFIX,bce-cdn.net
+DOMAIN-SUFFIX,bdycdn.cn
+DOMAIN-SUFFIX,bdycdn.net
+DOMAIN-SUFFIX,bdydns.cn
+DOMAIN-SUFFIX,bdydns.com
+DOMAIN-SUFFIX,bdydns.net
+DOMAIN-SUFFIX,dlnel.com
+DOMAIN-SUFFIX,dlnel.org
+
+# 迅雷、迅雷云盘、星域云与光鸭云盘
+DOMAIN-SUFFIX,00cdn.com
+DOMAIN-SUFFIX,88cdn.com
+DOMAIN-SUFFIX,8uri.cn
+DOMAIN-SUFFIX,kanimg.com
+DOMAIN-SUFFIX,thunderurl.com
+DOMAIN-SUFFIX,xycloud.com
+DOMAIN-SUFFIX,xycdn.com
+DOMAIN-SUFFIX,guangyacdn.com
+DOMAIN-SUFFIX,guangyapan.com
+DOMAIN-SUFFIX,xlpan.com
+DOMAIN-SUFFIX,xbase.cloud
+DOMAIN-SUFFIX,xcloudbase.com
+DOMAIN-SUFFIX,xunlei.cn
+DOMAIN-SUFFIX,xunlei.net
+
+# 夸克与 UC
+DOMAIN-SUFFIX,myquark.cn
+DOMAIN-SUFFIX,open-uc.cn
+DOMAIN-SUFFIX,uc-engine.cn
+DOMAIN-SUFFIX,uc123.com
+DOMAIN-SUFFIX,ucfly.com
+DOMAIN-SUFFIX,uczzd.cn
+
+# 阿里云盘
+DOMAIN-SUFFIX,alipan.com
+DOMAIN-SUFFIX,aliyundrive.cloud
+DOMAIN-SUFFIX,aliyunfile.com
+DOMAIN-SUFFIX,aliyunpds.com
+
+# 115 网盘
+DOMAIN-SUFFIX,115cdn.net
+DOMAIN-SUFFIX,115cloud.cn
+DOMAIN-SUFFIX,115cloud.com
+DOMAIN-SUFFIX,115cloud.net
+DOMAIN-SUFFIX,115img.com
+DOMAIN-SUFFIX,115meta.com
+DOMAIN-SUFFIX,115vod.com
+DOMAIN-SUFFIX,116cd.cn
+DOMAIN-SUFFIX,116cd.com
+DOMAIN-SUFFIX,116cd.net
+DOMAIN-SUFFIX,anxia.com
+DOMAIN-SUFFIX,sq.cc
+DOMAIN-SUFFIX,fhnfile.oss-cn-shenzhen.aliyuncs.com
+
+# 123 云盘
+DOMAIN-SUFFIX,123278.com
+DOMAIN-SUFFIX,123684.com
+DOMAIN-SUFFIX,123865.com
+DOMAIN-SUFFIX,123912.com
+DOMAIN-SUFFIX,123952.com
+
+# 蓝奏云
+DOMAIN-SUFFIX,baidupan.com
+DOMAIN-SUFFIX,ilanzou.com
+DOMAIN-SUFFIX,lanosso.com
+DOMAIN-SUFFIX,lanrar.com
+DOMAIN-SUFFIX,lanzouc.com
+DOMAIN-SUFFIX,lanzoue.com
+DOMAIN-SUFFIX,lanzouf.com
+DOMAIN-SUFFIX,lanzoug.com
+DOMAIN-SUFFIX,lanzouh.com
+DOMAIN-SUFFIX,lanzouj.com
+DOMAIN-SUFFIX,lanzouk.com
+DOMAIN-SUFFIX,lanzoul.com
+DOMAIN-SUFFIX,lanzoum.com
+DOMAIN-SUFFIX,lanzouo.com
+DOMAIN-SUFFIX,lanzoup.com
+DOMAIN-SUFFIX,lanzouq.com
+DOMAIN-SUFFIX,lanzous.com
+DOMAIN-SUFFIX,lanzout.com
+DOMAIN-SUFFIX,lanzouu.com
+DOMAIN-SUFFIX,lanzouv.com
+DOMAIN-SUFFIX,lanzouw.com
+DOMAIN-SUFFIX,lanzouy.com
+DOMAIN-SUFFIX,lanzov.com
+DOMAIN-SUFFIX,woozooo.com
+
+# 其他国内网盘与文件传输
+DOMAIN-SUFFIX,139.com
+DOMAIN-SUFFIX,wo.cn
+DOMAIN-SUFFIX,wocloud.com.cn
+DOMAIN-SUFFIX,yunpan.com
+DOMAIN-SUFFIX,nutstore.net
+DOMAIN-SUFFIX,jianguoyun.com.cn
+DOMAIN-SUFFIX,cowtransfer.com
+DOMAIN-SUFFIX,ctfile.net
+DOMAIN-SUFFIX,n802.com
+DOMAIN-SUFFIX,tv002.com
+DOMAIN-SUFFIX,ys168.com
+DOMAIN-SUFFIX,ysepan.com
+
 # 云计算、CDN、DNS 与基础设施
 DOMAIN-SUFFIX,tencentcloud.com
 DOMAIN-SUFFIX,qcloud.com
@@ -868,38 +975,164 @@ DOMAIN-SUFFIX,bootcss.com
 DOMAIN-SUFFIX,staticfile.net
 
 # 国内人工智能与大模型
+# AI 助手、基础模型与 API 平台
+DOMAIN-SUFFIX,01.ai
+DOMAIN-SUFFIX,4paradigm.com
+DOMAIN-SUFFIX,ai-yuanjing.com
+DOMAIN-SUFFIX,aispeech.com
+DOMAIN-SUFFIX,baichuan-ai.com
+DOMAIN-SUFFIX,bigmodel.cn
+DOMAIN-SUFFIX,bochaai.com
+DOMAIN-SUFFIX,chatglm.cn
+DOMAIN-SUFFIX,coze.cn
 DOMAIN-SUFFIX,deepseek.com
 DOMAIN-SUFFIX,doubao.com
-DOMAIN-SUFFIX,doubaocdn.com
-DOMAIN-SUFFIX,coze.cn
-DOMAIN-SUFFIX,cozecdn.com
-DOMAIN-SUFFIX,tongyi.com
+DOMAIN-SUFFIX,dui.ai
+DOMAIN-SUFFIX,duiopen.com
+DOMAIN-SUFFIX,hailuoai.com
+DOMAIN-SUFFIX,iflow.cn
+DOMAIN-SUFFIX,iflytek.com
+DOMAIN-SUFFIX,infini-ai.com
+DOMAIN-SUFFIX,infinigence-ai.com
+DOMAIN-SUFFIX,kimi.com
+DOMAIN-SUFFIX,langboat.com
+DOMAIN-SUFFIX,lingyiwanwu.com
+DOMAIN-SUFFIX,longcat.ai
+DOMAIN-SUFFIX,longcat.chat
+DOMAIN-SUFFIX,metaso.cn
+DOMAIN-SUFFIX,miaibox.com
+DOMAIN-SUFFIX,minimaxi.com
+DOMAIN-SUFFIX,modelbest.cn
+DOMAIN-SUFFIX,moonshot.cn
+DOMAIN-SUFFIX,ppio.cn
+DOMAIN-SUFFIX,ppio.com
 DOMAIN-SUFFIX,qianwen.com
 DOMAIN-SUFFIX,qianwenai.com
-DOMAIN-SUFFIX,kimi.com
-DOMAIN-SUFFIX,moonshot.cn
-DOMAIN-SUFFIX,bigmodel.cn
-DOMAIN-SUFFIX,chatglm.cn
+DOMAIN-SUFFIX,sensecore.cn
+DOMAIN-SUFFIX,sensenova.cn
+DOMAIN-SUFFIX,sensetime.com
+DOMAIN-SUFFIX,shengshu.ai
+DOMAIN-SUFFIX,siliconflow.cn
+DOMAIN-SUFFIX,stepfun.com
+DOMAIN-SUFFIX,teleai.com.cn
+DOMAIN-SUFFIX,tiangong.cn
+DOMAIN-SUFFIX,tongyi.com
+DOMAIN-SUFFIX,wenxiaobai.com
+DOMAIN-SUFFIX,xfyun.cn
+DOMAIN-SUFFIX,xiaohuanxiong.com
+DOMAIN-SUFFIX,xiaoaiassist.com
+DOMAIN-SUFFIX,xiaomimimo.com
+DOMAIN-SUFFIX,yosee.com
 DOMAIN-SUFFIX,zhipuai.cn
 DOMAIN-SUFFIX,zhipucn.com
-DOMAIN-SUFFIX,xfyun.cn
-DOMAIN-SUFFIX,iflytek.com
-DOMAIN-SUFFIX,baichuan-ai.com
-DOMAIN-SUFFIX,minimaxi.com
-DOMAIN-SUFFIX,hailuoai.com
-DOMAIN-SUFFIX,tiangong.cn
-DOMAIN-SUFFIX,metaso.cn
-DOMAIN-SUFFIX,stepfun.com
-DOMAIN-SUFFIX,siliconflow.cn
+
+# 新兴 AI 助手与垂直应用
+DOMAIN-SUFFIX,antafu.com
+DOMAIN-SUFFIX,antaq.com
+DOMAIN-SUFFIX,aorizon.cn
+DOMAIN-SUFFIX,askdiandian.com
+DOMAIN-SUFFIX,cueme.cn
+DOMAIN-SUFFIX,diandianlife.top
+DOMAIN-SUFFIX,dumate.cn
+DOMAIN-SUFFIX,faxingbao.com
+DOMAIN-SUFFIX,happyhorse.cn
+DOMAIN-SUFFIX,happyshrimp.cn
+DOMAIN-SUFFIX,meta.law
+DOMAIN-SUFFIX,miaoda.cn
+DOMAIN-SUFFIX,miaoyanai.com
+DOMAIN-SUFFIX,n.cn
+DOMAIN-SUFFIX,scnet.cn
+DOMAIN-SUFFIX,sleeplesshorizon.cn
+DOMAIN-SUFFIX,xiezuocat.com
+DOMAIN-SUFFIX,xingyeai.com
+
+# AI 编程
+DOMAIN-SUFFIX,codebuddy.cn
+DOMAIN-SUFFIX,codegeex.cn
+DOMAIN-SUFFIX,fittenlab.cn
+DOMAIN-SUFFIX,fittentech.com
+DOMAIN-SUFFIX,marscode.cn
+DOMAIN-SUFFIX,marscode.com.cn
+DOMAIN-SUFFIX,trae.cn
+DOMAIN-SUFFIX,trae.com.cn
+
+# 模型社区、托管、开源框架与评测
+DOMAIN-SUFFIX,baai.ac.cn
+DOMAIN-SUFFIX,fastgpt.cn
+DOMAIN-SUFFIX,intern-ai.org.cn
+DOMAIN-SUFFIX,jittor.org
+DOMAIN-SUFFIX,maxkb.cn
+DOMAIN-SUFFIX,megengine.org.cn
+DOMAIN-SUFFIX,mindspore.cn
+DOMAIN-SUFFIX,modelers.cn
 DOMAIN-SUFFIX,modelscope.cn
+DOMAIN-SUFFIX,oneflow.org.cn
+DOMAIN-SUFFIX,openbayes.com
+DOMAIN-SUFFIX,openbmb.cn
+DOMAIN-SUFFIX,opencsg.com
+DOMAIN-SUFFIX,openi.org.cn
+DOMAIN-SUFFIX,openmmlab.org.cn
+DOMAIN-SUFFIX,openxlab.org.cn
+DOMAIN-SUFFIX,paddlepaddle.org.cn
+DOMAIN-SUFFIX,pcl.ac.cn
+DOMAIN-SUFFIX,ragflow.com.cn
+DOMAIN-SUFFIX,rwkv.cn
+DOMAIN-SUFFIX,rwkv.com
+DOMAIN-SUFFIX,shlab.org.cn
+DOMAIN-SUFFIX,swanlab.cn
+DOMAIN-SUFFIX,wisemodel.cn
+
+# AI 创作、视频、图片与智能办公
+DOMAIN-SUFFIX,gitmind.cn
+DOMAIN-SUFFIX,jianying.com
+DOMAIN-SUFFIX,jimeng.com
 DOMAIN-SUFFIX,liblib.art
 DOMAIN-SUFFIX,liblib.cloud
-DOMAIN-SUFFIX,01.ai
-DOMAIN-SUFFIX,sensecore.cn
-DOMAIN-SUFFIX,sensetime.com
-DOMAIN-SUFFIX,4paradigm.com
-DOMAIN-SUFFIX,xiaoaiassist.com
-DOMAIN-SUFFIX,miaibox.com
+DOMAIN-SUFFIX,liblib.tv
+DOMAIN-SUFFIX,tapnow.top
+DOMAIN-SUFFIX,tusi.cn
+DOMAIN-SUFFIX,vidu.cn
+DOMAIN-SUFFIX,whee.com
+DOMAIN-SUFFIX,xingliu.art
+
+# 智能体、MCP 与 Skill 生态
+DOMAIN-SUFFIX,clawhub-mirror.com
+DOMAIN-SUFFIX,linka2a.net
+DOMAIN-SUFFIX,mcpworld.com
+DOMAIN-SUFFIX,safeskill.cn
+DOMAIN-SUFFIX,shunjing.xin
+DOMAIN-SUFFIX,skillhub.cn
+DOMAIN-SUFFIX,yzsgo.com
+DOMAIN-SUFFIX,zhiexa.com
+
+# 豆包、Coze 及其他 AI 产品功能依赖
+DOMAIN-SUFFIX,butterfly-static.cn
+DOMAIN-SUFFIX,butterflyai.cn
+DOMAIN-SUFFIX,coze-dns-01.com
+DOMAIN-SUFFIX,coze.email
+DOMAIN-SUFFIX,coze.site
+DOMAIN-SUFFIX,cozeapp.net
+DOMAIN-SUFFIX,cozebaas.cn
+DOMAIN-SUFFIX,cozebuild.com
+DOMAIN-SUFFIX,cozecdn.com
+DOMAIN-SUFFIX,cozedeploy.com
+DOMAIN-SUFFIX,cozefn.cn
+DOMAIN-SUFFIX,cozeide.cn
+DOMAIN-SUFFIX,cozesdk.com
+DOMAIN-SUFFIX,doubaocdn.com
+DOMAIN-SUFFIX,doudou.com
+DOMAIN-SUFFIX,hi-butterfly.cn
+DOMAIN-SUFFIX,instreet.com
+DOMAIN-SUFFIX,kechuangai.com
+DOMAIN-SUFFIX,maoxiangai.com
+DOMAIN-SUFFIX,mcprev.cn
+DOMAIN-SUFFIX,myparallelstory.com
+DOMAIN-SUFFIX,oceancloudapi.com
+DOMAIN-SUFFIX,obriccloud.com
+DOMAIN-SUFFIX,obricclouddw.com
+DOMAIN-SUFFIX,picpic-ai.cn
+DOMAIN-SUFFIX,pixeldance.com
+DOMAIN-SUFFIX,yoma.cn
 
 # 开发者、代码托管与技术社区
 DOMAIN-SUFFIX,gitee.com
