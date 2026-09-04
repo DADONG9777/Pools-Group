@@ -1,9 +1,10 @@
 # Gemini-Antigravity.list
 # Google Gemini、Google AI Studio、Gemini API 与 Google Antigravity 规则集
 # Clash / Mihomo classical rule-provider
-# 更新时间：2026-08-29
+# 更新时间：2026-09-04
 # 说明：DOMAIN-SUFFIX 会同时匹配对应域名及其子域名。
 # 范围：产品入口、登录鉴权、模型/API、AI Studio、Antigravity 下载与 IDE 扩展依赖。
+# 已排除 Google 搜索首页以及 YouTube 视频/媒体域名，避免无关流量进入本规则集。
 # 未加入整个 google.com 或 googleapis.com，避免将无关 Google 服务全部纳入。
 # 参考：https://support.google.com/gemini/answer/13278668
 # 参考：https://ai.google.dev/gemini-api/docs/antigravity-agent
@@ -66,8 +67,6 @@ DOMAIN-SUFFIX,one.google.com
 DOMAIN-SUFFIX,admin.google.com
 DOMAIN-SUFFIX,support.google.com
 DOMAIN-SUFFIX,policies.google.com
-DOMAIN-SUFFIX,www.google.com
-DOMAIN-SUFFIX,www.google.cn
 
 # 静态资源、验证、头像与文件内容
 DOMAIN-SUFFIX,gstatic.com
@@ -105,9 +104,3 @@ DOMAIN-SUFFIX,android.googleapis.com
 DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
 DOMAIN-SUFFIX,firebaseremoteconfig.googleapis.com
 DOMAIN-SUFFIX,firebaselogging.googleapis.com
-
-# Gemini 的视频/媒体理解与相关网页集成
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,ytimg.com
