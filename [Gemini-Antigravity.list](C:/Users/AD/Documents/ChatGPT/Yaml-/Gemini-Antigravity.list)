@@ -1,0 +1,113 @@
+# Gemini-Antigravity.list
+# Google Gemini、Google AI Studio、Gemini API 与 Google Antigravity 规则集
+# Clash / Mihomo classical rule-provider
+# 更新时间：2026-08-29
+# 说明：DOMAIN-SUFFIX 会同时匹配对应域名及其子域名。
+# 范围：产品入口、登录鉴权、模型/API、AI Studio、Antigravity 下载与 IDE 扩展依赖。
+# 未加入整个 google.com 或 googleapis.com，避免将无关 Google 服务全部纳入。
+# 参考：https://support.google.com/gemini/answer/13278668
+# 参考：https://ai.google.dev/gemini-api/docs/antigravity-agent
+# 参考：https://antigravity.google/download
+# 参考：https://antigravity.google/docs/ide/extensions/
+
+# Gemini 网页应用与历史入口
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,gemini.gstatic.com
+DOMAIN-SUFFIX,gemini.app.google
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,deepmind.com
+
+# Google AI Studio 与 Gemini 开发者入口
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,discuss.ai.google.dev
+DOMAIN-SUFFIX,developers.google.com
+DOMAIN-SUFFIX,developers.googleapis.com
+DOMAIN-SUFFIX,makersuite.google.com
+
+# Gemini API、Interactions API、Live API 与模型服务
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,gemini-pa.googleapis.com
+DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,aiplatform.googleapis.com
+DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
+DOMAIN-SUFFIX,cloudaicompanion.googleapis.com
+
+# AI Studio 前端及 Google 内部客户端接口
+DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
+DOMAIN-SUFFIX,alkalimakersuiteapplets.pa.clients6.google.com
+DOMAIN-SUFFIX,webchannel-alkalimakersuite-pa.clients6.google.com
+DOMAIN-SUFFIX,aistudio-pa.clients6.google.com
+DOMAIN-SUFFIX,cloudconsole-pa.clients6.google.com
+DOMAIN-SUFFIX,people-pa.clients6.google.com
+DOMAIN-SUFFIX,developerprofiles-pa.googleapis.com
+DOMAIN-SUFFIX,developerscontentinsights-pa.googleapis.com
+DOMAIN-SUFFIX,developerscontentsearch-pa.googleapis.com
+DOMAIN-SUFFIX,developerscontentserving-pa.googleapis.com
+
+# Gemini 网页端后台、推送与会话接口
+DOMAIN-SUFFIX,geminiweb-pa.clients6.google.com
+DOMAIN-SUFFIX,ogads-pa.clients6.google.com
+DOMAIN-SUFFIX,waa-pa.clients6.google.com
+DOMAIN-SUFFIX,push.clients6.google.com
+
+# Google 登录、OAuth、账户与授权页面
+DOMAIN-SUFFIX,accounts.google.com
+DOMAIN-SUFFIX,oauth2.googleapis.com
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,www.googleapis.com
+DOMAIN-SUFFIX,content.googleapis.com
+DOMAIN-SUFFIX,ogs.google.com
+DOMAIN-SUFFIX,myaccount.google.com
+DOMAIN-SUFFIX,one.google.com
+DOMAIN-SUFFIX,admin.google.com
+DOMAIN-SUFFIX,support.google.com
+DOMAIN-SUFFIX,policies.google.com
+DOMAIN-SUFFIX,www.google.com
+DOMAIN-SUFFIX,www.google.cn
+
+# 静态资源、验证、头像与文件内容
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,fonts.googleapis.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,recaptcha.net
+
+# Antigravity 官方产品、文档与配置 schema
+DOMAIN-SUFFIX,antigravity.google
+DOMAIN-SUFFIX,antigravity.google.com
+
+# Antigravity/Agent Platform 的云端模型与鉴权依赖
+DOMAIN-SUFFIX,us-central1-aiplatform.googleapis.com
+DOMAIN-SUFFIX,europe-west4-aiplatform.googleapis.com
+DOMAIN-SUFFIX,global-aiplatform.googleapis.com
+
+# Antigravity IDE、CLI 与桌面版官方下载及更新
+DOMAIN-SUFFIX,edgedl.me.gvt1.com
+DOMAIN-SUFFIX,storage.googleapis.com
+DOMAIN-SUFFIX,dl.google.com
+DOMAIN-SUFFIX,dl-ssl.google.com
+
+# Antigravity IDE 扩展与编辑器市场依赖
+DOMAIN-SUFFIX,marketplace.visualstudio.com
+DOMAIN-SUFFIX,vsassets.io
+DOMAIN-SUFFIX,plugins.jetbrains.com
+DOMAIN-SUFFIX,zed.dev
+
+# Gemini 文件、云端集成及 Android/Google 应用依赖
+DOMAIN-SUFFIX,docs.google.com
+DOMAIN-SUFFIX,drive.google.com
+DOMAIN-SUFFIX,workspace.google.com
+DOMAIN-SUFFIX,play.google.com
+DOMAIN-SUFFIX,android.googleapis.com
+DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
+DOMAIN-SUFFIX,firebaseremoteconfig.googleapis.com
+DOMAIN-SUFFIX,firebaselogging.googleapis.com
+
+# Gemini 的视频/媒体理解与相关网页集成
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,ytimg.com
